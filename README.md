@@ -2,6 +2,10 @@
 Live App link: 
 - [Live Demo](https://association-football.777areri.now.sh/)
 
+### Demo Login
+Username: manager
+Password: Manager1!
+
 ### Description
 Association Football's platform is a team management tool. Pick the players you want from the big leagues to craft the ultimate team based on your dream team. Or use it to keep track of your local team as a coach.
 
