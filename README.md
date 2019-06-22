@@ -1,17 +1,44 @@
-# Express Boilerplate!
+# Association Football
+Live App link: 
+- [Live Demo](https://association-football.777areri.now.sh/)
 
-This is a boilerplate project used for starting new projects!
+### Description
+Association Football's platform is a team management tool. Pick the players you want from the big leagues to craft the ultimate team based on your dream team. Or use it to keep track of your local team as a coach.
 
-## Set up
+## Screenshots
+Landing Page:
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+![Landing Page on Mobile](/src/imgs/LandingPage.PNG)
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+Login on mobile:
+
+![Signin](/src/imgs/SignInMobile.png)
+
+Dashboard view (Mobile):
+
+![Dashboard](/src/imgs/DashboardMobile.png)
+
+## Built With
+### Front End
+* React
+* CSS
+* Html
+* Javascript
+- Repo for Front End: [GitHub Repo](https://github.com/erickmtza/association-football-client)
+
+### Back End
+* Node.js
+* Express.js
+* RESTful API endpoints
+* PostgreSQL
+* Mocha & Chai (testing)
+
+## Features
+
+* Create an account to store your players using the Dashboard
+* Personalize the dashboard with your club's name
+* Filter players by position 
+* Add players and use player data to evaluate your players
 
 ## Scripts
 
@@ -20,7 +47,3 @@ Start the application `npm start`
 Start nodemon for the application `npm run dev`
 
 Run the tests `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
