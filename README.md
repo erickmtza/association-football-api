@@ -37,6 +37,10 @@ Dashboard view (Mobile):
 * PostgreSQL
 * Mocha & Chai (testing)
 
+### Authentication
+* Bcryptjs
+* JsonWebTokens
+
 ## Features
 
 * Create an account to store your players using the Dashboard
